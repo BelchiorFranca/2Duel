@@ -17,7 +17,15 @@ public class PlayerController : MonoBehaviour
     public Transform groundCheck;
     public float checkRadius;
     public LayerMask whatisGround;
-    private int extraJumps = 1;
+    public int extraJumps = 1;
+
+    //Walljump
+    private bool isOnWall;
+    //public Transform wallCheckRight;
+    //public Transform wallCheckLeft;
+    public Transform wallCheck;
+    public LayerMask whatisWall;
+    public float wallCheckDistance;
 
     void Start()
     {
@@ -36,6 +44,7 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate() {
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position,checkRadius,whatisGround);
+        isOnWall = Physics2D.Raycast(wallCheck.position,transform.right,wallCheckDistance,whatisWall);
         ApplyMovement();
     }
 
@@ -71,7 +80,7 @@ public class PlayerController : MonoBehaviour
     }
 
     private void doubleJumpCheck(){
-        if(isGrounded){
+        if(isGrounded || isOnWall){
             extraJumps = 1;
         }
     }
