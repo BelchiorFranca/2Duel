@@ -11,7 +11,17 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 10.0f; //velocidade do movimento
     public float runspeed; // velocidade da corrida 
     public float jumpForce = 16.0f; // força do pulo
-    
+
+    // Dash utilities
+    public float dashSpeed = 80.0f; // Dash speed/force
+    public float startDashTimer = 0.15f; // Amount of time a player can maintain the dash
+    public float startDashCooldown = 1.0f; // Amount of time waiting to be able to dash again
+    float currentDashCooldown;
+    float currentDashTimer;
+    float dashDirection;
+    bool canDash = true;
+    bool isDashing = false;
+
     //Double jump e ground check
     private bool isGrounded;
     public Transform groundCheck;
@@ -39,6 +49,7 @@ public class PlayerController : MonoBehaviour
         doubleJumpCheck();
         CheckInput();
         CheckMovementDirection();
+        dashCheck();
     }
 
     private void FixedUpdate() {
@@ -57,6 +68,34 @@ public class PlayerController : MonoBehaviour
             extraJumps--;
         }
         
+    }
+
+    private void dashCheck(){
+        movementInputDirection = Input.GetAxisRaw("Horizontal");
+
+        if (Input.GetKeyDown(KeyCode.LeftShift) && movementInputDirection != 0.0f && canDash){
+            isDashing = true;
+            currentDashTimer = startDashTimer;
+            dashDirection = (int)movementInputDirection;
+        }
+
+        if (isDashing){
+            Vector2 dashForceValue = new Vector2(dashSpeed * dashDirection, 0);
+            myrigidBody.AddForce(dashForceValue);
+            currentDashTimer -= Time.deltaTime;
+            if (currentDashTimer <= 0){
+                isDashing = false;
+                canDash = false;
+                currentDashCooldown = startDashCooldown;
+            }
+        }
+
+        if (!canDash){
+            currentDashCooldown -= Time.deltaTime;
+            if (currentDashCooldown <= 0){
+                canDash = true;
+            }
+        }
     }
 
     private void ApplyMovement(){
