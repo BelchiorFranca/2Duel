@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerController : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 10.0f; //velocidade do movimento
     public float runspeed; // velocidade da corrida 
     public float jumpForce = 16.0f; // força do pulo
+    
 
     // Dash utilities
     public float dashSpeed = 80.0f; // Dash speed/force
@@ -37,6 +39,12 @@ public class PlayerController : MonoBehaviour
     public LayerMask whatisWall;
     public float wallCheckDistance;
 
+    //animator
+    public Animator animator;
+    [Header("Events")]
+	[Space]
+    public UnityEvent OnLandEvent;
+
     void Start()
     {
         myrigidBody = GetComponent<Rigidbody2D>(); //inicializa o rigidbody
@@ -55,19 +63,23 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate() {
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position,checkRadius,whatisGround);
+        if(isGrounded){
+            OnLandEvent.Invoke();
+        }
         isOnWall = Physics2D.Raycast(wallCheck.position,transform.right,wallCheckDistance,whatisWall);
         ApplyMovement();
+
     }
 
     private void CheckInput(){
 
         movementInputDirection = Input.GetAxisRaw("Horizontal");
-
+        animator.SetFloat("Speed",Mathf.Abs(movementInputDirection));
         if(Input.GetButtonDown("Jump") && extraJumps>0){
             Jump();
-            extraJumps--;
+            animator.SetBool("IsJumping",true);
+            extraJumps--;    
         }
-        
     }
 
     private void dashCheck(){
@@ -100,6 +112,7 @@ public class PlayerController : MonoBehaviour
 
     private void ApplyMovement(){
         myrigidBody.velocity = new Vector2(moveSpeed * movementInputDirection,myrigidBody.velocity.y);
+        
     }
 
     //função que vira o player dependendo do input que ele botar 
@@ -111,7 +124,7 @@ public class PlayerController : MonoBehaviour
             Flip();
         }
     }
-
+    
     //  pulo 
     private void Jump(){
         myrigidBody.velocity = new Vector2(myrigidBody.velocity.x, jumpForce);
@@ -121,12 +134,27 @@ public class PlayerController : MonoBehaviour
     private void doubleJumpCheck(){
         if(isGrounded || isOnWall){
             extraJumps = 1;
+            
         }
+            
     }
 
+
+ 
     // esse é o core do checkMovementDirection rotaciona a sprite e muda o status de onde ele ta olhando
     private void Flip(){
         isFacingRight = !isFacingRight;
         transform.Rotate(0.0f, 180.0f , 0.0f);
+    }
+
+    [System.Serializable]
+    public class BoolEvent : UnityEvent<bool> { 
+
+
+
+    }
+
+    public void OnLanding(){
+        animator.SetBool("IsJumping",false);
     }
 }
