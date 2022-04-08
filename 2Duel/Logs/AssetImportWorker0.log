@@ -7672,3 +7672,1245 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 48238.900776 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.319174 seconds 
+  Import took 0.674400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.575343 seconds.
+  path: Assets/Material
+  artifactKey: Guid(eab2353574e0e9c4abc78e0ed03ecad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material using Guid(eab2353574e0e9c4abc78e0ed03ecad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10159ac8bd4ae8550edceee5a6115352') in 0.008476 seconds 
+  Import took 0.018604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.892376 seconds.
+  path: Assets/Material/New Physic Material.physicMaterial
+  artifactKey: Guid(e6366e7a8995cc048b9c101af38078c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/New Physic Material.physicMaterial using Guid(e6366e7a8995cc048b9c101af38078c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d2565ad2fde75f5cd32ae202798764') in 0.331686 seconds 
+  Import took 0.338736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.857883 seconds.
+  path: Assets/Material/Slide.physicsMaterial2D
+  artifactKey: Guid(d47c29d46704c1340b81a5e4c3a7be41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Slide.physicsMaterial2D using Guid(d47c29d46704c1340b81a5e4c3a7be41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4fac9716f9f7f43ec2f6968628a906') in 0.016681 seconds 
+  Import took 0.026115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001421 seconds.
+  path: Assets/Material/Slide.physicsMaterial2D
+  artifactKey: Guid(d47c29d46704c1340b81a5e4c3a7be41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Slide.physicsMaterial2D using Guid(d47c29d46704c1340b81a5e4c3a7be41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4fac9716f9f7f43ec2f6968628a906') in 0.008096 seconds 
+  Import took 0.015799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.255689 seconds.
+  path: Assets/Material/Slip.physicsMaterial2D
+  artifactKey: Guid(d47c29d46704c1340b81a5e4c3a7be41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Slip.physicsMaterial2D using Guid(d47c29d46704c1340b81a5e4c3a7be41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f78cdd7219e045bb50611b8264358b') in 0.009446 seconds 
+  Import took 0.018406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006818 seconds.
+  path: Assets/Material/Slip.physicsMaterial2D
+  artifactKey: Guid(d47c29d46704c1340b81a5e4c3a7be41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Slip.physicsMaterial2D using Guid(d47c29d46704c1340b81a5e4c3a7be41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f78cdd7219e045bb50611b8264358b') in 0.005759 seconds 
+  Import took 0.012415 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.041017 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.737 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2748ms)
+		BeginReloadAssembly (520ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (62ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (255ms)
+		EndReloadAssembly (2054ms)
+			LoadAssemblies (268ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (680ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (789ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (199ms)
+				ProcessInitializeOnLoadAttributes (526ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2525 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.3 MB.
+System memory in use after: 118.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3138.
+Total: 6.866800 ms (FindLiveObjects: 0.896600 ms CreateObjectMapping: 0.244700 ms MarkObjects: 4.866100 ms  DeleteObjects: 0.856300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1543.108354 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(4f745df0ed6cd3745923251d795413d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(4f745df0ed6cd3745923251d795413d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8489e9dd28eaea512208a26e26fe21b2') in 0.169833 seconds 
+  Import took 0.375427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.829006 seconds.
+  path: Assets/Scripts/PlayerAttack.cs
+  artifactKey: Guid(fbe6fb9004a49eb4f8b5559274e2414b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerAttack.cs using Guid(fbe6fb9004a49eb4f8b5559274e2414b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36062035ac2c67d2c27c1a9459bd0a8') in 0.042216 seconds 
+  Import took 0.052573 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021799 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.420 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2433ms)
+		BeginReloadAssembly (586ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (63ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (283ms)
+		EndReloadAssembly (1700ms)
+			LoadAssemblies (254ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (568ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (609ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (176ms)
+				ProcessInitializeOnLoadAttributes (383ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2526 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.4 MB.
+System memory in use after: 118.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3141.
+Total: 6.067900 ms (FindLiveObjects: 0.342800 ms CreateObjectMapping: 0.158800 ms MarkObjects: 5.223600 ms  DeleteObjects: 0.341300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 409.771582 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal
+  artifactKey: Guid(802f8c66553e47e4d9b960e565c1e77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal using Guid(802f8c66553e47e4d9b960e565c1e77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0afc3526186f1500ec31cffbc1d584') in 0.115218 seconds 
+  Import took 0.156489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000670 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_14.png
+  artifactKey: Guid(26df50b15921c514ea7019fd68658243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_14.png using Guid(26df50b15921c514ea7019fd68658243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c341f9ebceac98c116f1dfb79c453ce') in 0.987003 seconds 
+  Import took 0.994251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000581 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_13.png
+  artifactKey: Guid(9b9c65cc239ba214fa9172c12c8135b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_13.png using Guid(9b9c65cc239ba214fa9172c12c8135b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e14ce8ebf151faca1fd6b30771f0f53') in 0.052828 seconds 
+  Import took 0.061162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000665 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_05.png
+  artifactKey: Guid(66625ea5c98ed904ebf070abbf8921bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_05.png using Guid(66625ea5c98ed904ebf070abbf8921bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be691417cf9fcc837aa60eec8d83423') in 0.040314 seconds 
+  Import took 0.047990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000581 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_04.png
+  artifactKey: Guid(96f0f92c0efe381428f9c375d7eb7abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_04.png using Guid(96f0f92c0efe381428f9c375d7eb7abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861629a7c606e64a6478201f0aae6bc9') in 0.040506 seconds 
+  Import took 0.048578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002638 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_02.png
+  artifactKey: Guid(c74881a2731260042914036252caf91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_02.png using Guid(c74881a2731260042914036252caf91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f94908b1ba15af895cd85b6e1741e8') in 0.041011 seconds 
+  Import took 0.050153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_15.png
+  artifactKey: Guid(0224b39d2541b4340b48a5dbc2c70eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_15.png using Guid(0224b39d2541b4340b48a5dbc2c70eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b974eb6a056c29b2286e268209e3e3') in 0.043326 seconds 
+  Import took 0.050375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000607 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_08.png
+  artifactKey: Guid(578d84587f2384f47becbd2bf763f0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_08.png using Guid(578d84587f2384f47becbd2bf763f0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff76d91fb0109188008d345901514a2') in 0.104773 seconds 
+  Import took 0.114184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000711 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_06.png
+  artifactKey: Guid(f920b4d77a373d54583e2d187dc39286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_06.png using Guid(f920b4d77a373d54583e2d187dc39286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f845f848aade813e0a48016d225d3525') in 0.085242 seconds 
+  Import took 0.095757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_08.png
+  artifactKey: Guid(578d84587f2384f47becbd2bf763f0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_08.png using Guid(578d84587f2384f47becbd2bf763f0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff76d91fb0109188008d345901514a2') in 0.040152 seconds 
+  Import took 0.050992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_18.png
+  artifactKey: Guid(6c8a4329a7816ba44bbd9ea78e37647e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_18.png using Guid(6c8a4329a7816ba44bbd9ea78e37647e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2219b9e97b5ae37987c911dd70ca1a') in 0.056341 seconds 
+  Import took 0.081386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_19.png
+  artifactKey: Guid(0ca38d783a88fc74d84b0b266f8949e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_19.png using Guid(0ca38d783a88fc74d84b0b266f8949e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e434497ad390f18dca1b187ba36e76e') in 0.052639 seconds 
+  Import took 0.061789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_11.png
+  artifactKey: Guid(84481f96fed4bee4ea13bb7125362b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_11.png using Guid(84481f96fed4bee4ea13bb7125362b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '136894a3cf69e14bcf4f02f8ec5b833d') in 0.043681 seconds 
+  Import took 0.054813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000515 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_16.png
+  artifactKey: Guid(26c96b579d83a8a4c9067e31c1156329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_16.png using Guid(26c96b579d83a8a4c9067e31c1156329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1eb6ef6a56d0b436b66b839342f9f2') in 0.041876 seconds 
+  Import took 0.052461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_07.png
+  artifactKey: Guid(da6dc276f06523a4d8a58013117275f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_07.png using Guid(da6dc276f06523a4d8a58013117275f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575426599ddf7fd5a95dbc1f09e0960f') in 0.042445 seconds 
+  Import took 0.051569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_21.png
+  artifactKey: Guid(2e0731d911fe6f246ad2adf6a8cfcc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_21.png using Guid(2e0731d911fe6f246ad2adf6a8cfcc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0205a38f7077125a3248d528fc3cb9a') in 0.042332 seconds 
+  Import took 0.049930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_12.png
+  artifactKey: Guid(9c6c6ebfbd21d394e94a17aef97be6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_12.png using Guid(9c6c6ebfbd21d394e94a17aef97be6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3caf6282bd794e0944270715aac5c5f3') in 0.042400 seconds 
+  Import took 0.051561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000732 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_20.png
+  artifactKey: Guid(604072c9e77ce944192aa8a3b0cc5122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_20.png using Guid(604072c9e77ce944192aa8a3b0cc5122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01fd180e5333a14ede3a122e874d497c') in 0.044084 seconds 
+  Import took 0.051809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_03.png
+  artifactKey: Guid(2807758edbe70a44eaf8a2292024fdb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_03.png using Guid(2807758edbe70a44eaf8a2292024fdb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7f87b15abacc8b6b3bfd6886e88552') in 0.040074 seconds 
+  Import took 0.047565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_09.png
+  artifactKey: Guid(7089ed451c180564787eb5838a34c876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_09.png using Guid(7089ed451c180564787eb5838a34c876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ea96b93ae7d3f4648c8d140dda64d7') in 0.044535 seconds 
+  Import took 0.053406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001122 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_00.png
+  artifactKey: Guid(b2545f9860df2104ba2be7685559846d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_00.png using Guid(b2545f9860df2104ba2be7685559846d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bfae0eefff5064af95f696e546a2585') in 0.039193 seconds 
+  Import took 0.047162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000589 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_01.png
+  artifactKey: Guid(a14a074a52c8246429943fb1bc7cdf10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_01.png using Guid(a14a074a52c8246429943fb1bc7cdf10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b73714c217bed689938ed2fa4e646a') in 0.040552 seconds 
+  Import took 0.049946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_10.png
+  artifactKey: Guid(9b205b3c6ae84b847ada9added955354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_10.png using Guid(9b205b3c6ae84b847ada9added955354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367b45e8177ef9a3ce8579c30f2e6877') in 0.041454 seconds 
+  Import took 0.048574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_17.png
+  artifactKey: Guid(249f5555c31ca2c4aab5fe7d5094d9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/walk normal/stickman fighter-black-2_Sword-walk normal_17.png using Guid(249f5555c31ca2c4aab5fe7d5094d9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1ad22d328ee8e9a35ff198b25097a1') in 0.038218 seconds 
+  Import took 0.045835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.553273 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_00.png
+  artifactKey: Guid(2edea948e5371ea4f9b2832cf15aa6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_00.png using Guid(2edea948e5371ea4f9b2832cf15aa6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e5a939e907dfec26475933ecea1021') in 0.034541 seconds 
+  Import took 0.040047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000853 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_08.png
+  artifactKey: Guid(19d0bb542ed83ec45869b3f9fc8c241e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_08.png using Guid(19d0bb542ed83ec45869b3f9fc8c241e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c982c15d8cb88bc86244541c5c4c3c72') in 0.038474 seconds 
+  Import took 0.044690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_04.png
+  artifactKey: Guid(6c05960bdef4ee04db4b386990fc8cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_04.png using Guid(6c05960bdef4ee04db4b386990fc8cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0adcf12b40416848f0be4d9660bcde1a') in 0.037600 seconds 
+  Import took 0.044283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_10.png
+  artifactKey: Guid(da83a3be3e5e99b41b25a25d346fce76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_10.png using Guid(da83a3be3e5e99b41b25a25d346fce76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3fb5f5af5f5af40f96b3c3462263e90') in 0.033476 seconds 
+  Import took 0.040351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_11.png
+  artifactKey: Guid(aabbe574a269292419e22be75f0be442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_11.png using Guid(aabbe574a269292419e22be75f0be442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ef4b0661d4ad742ef6875f6651a7c1') in 0.032962 seconds 
+  Import took 0.040024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_12.png
+  artifactKey: Guid(75ee96578dba3a94ab15e006a4a145b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_12.png using Guid(75ee96578dba3a94ab15e006a4a145b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b54d1c2d389c706e30438f061ff9901') in 0.036402 seconds 
+  Import took 0.045159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_09.png
+  artifactKey: Guid(41e347dbc2e28ec4889a6ca4bf452d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_09.png using Guid(41e347dbc2e28ec4889a6ca4bf452d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55b3cda039a59e357be1204c2490326') in 0.036972 seconds 
+  Import took 0.043622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_15.png
+  artifactKey: Guid(72e55edcafd8de34a8c001b0abbec0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_15.png using Guid(72e55edcafd8de34a8c001b0abbec0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218422f913be8f11d9aa586c87f45bf6') in 0.034504 seconds 
+  Import took 0.043108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000521 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_07.png
+  artifactKey: Guid(9f3b82d94947d6f42a73edcec760879c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_07.png using Guid(9f3b82d94947d6f42a73edcec760879c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a449a8c1da7802fd49e6cfe17e3518') in 0.059198 seconds 
+  Import took 0.066065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000704 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_02.png
+  artifactKey: Guid(6299d86ddede90c4695092971963df08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_02.png using Guid(6299d86ddede90c4695092971963df08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a98433c8bbf9a651debaaed76b53fb') in 0.040246 seconds 
+  Import took 0.046921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000649 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_03.png
+  artifactKey: Guid(3d65fac1ead8d2744b5db96cd9ec2adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_03.png using Guid(3d65fac1ead8d2744b5db96cd9ec2adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b9e0d3b6bd9e26d6e1137ae3c2dcaa') in 0.037006 seconds 
+  Import took 0.046488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_05.png
+  artifactKey: Guid(1c036ea548e4b264b988c713763e7bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_05.png using Guid(1c036ea548e4b264b988c713763e7bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994c421301b430d8482c108c0f475778') in 0.041356 seconds 
+  Import took 0.048623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_13.png
+  artifactKey: Guid(7cec0f11dd1351a43ba2719c1ba0ca9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_13.png using Guid(7cec0f11dd1351a43ba2719c1ba0ca9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f5b81f2578aa26b1d2175d19f0edb3') in 0.039788 seconds 
+  Import took 0.049473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_14.png
+  artifactKey: Guid(1990f699b584f754eb5c4c274e489ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_14.png using Guid(1990f699b584f754eb5c4c274e489ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c89165ac2daceae9ca43fca2300143c') in 0.038859 seconds 
+  Import took 0.045138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_06.png
+  artifactKey: Guid(502ba63932325004c8ce9be4fbaf44be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_06.png using Guid(502ba63932325004c8ce9be4fbaf44be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7715df4e1233bf089e97bcd75ffe2de1') in 0.042158 seconds 
+  Import took 0.050547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_01.png
+  artifactKey: Guid(000faac42258d2d41be770ceb5c3220e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_01.png using Guid(000faac42258d2d41be770ceb5c3220e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaad07bce8a64acbae6d47cc9754e344') in 0.060824 seconds 
+  Import took 0.069172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.026319 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_00.png
+  artifactKey: Guid(2edea948e5371ea4f9b2832cf15aa6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_00.png using Guid(2edea948e5371ea4f9b2832cf15aa6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4fe23e8c0753fb6bdf5c1c1e1443e0') in 0.047691 seconds 
+  Import took 0.058764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 138.407136 seconds.
+  path: Assets/Animation/Player1.controller
+  artifactKey: Guid(b4a798ce3d2527c45b77e7803be7355a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player1.controller using Guid(b4a798ce3d2527c45b77e7803be7355a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d958c5255c1413d5f0701ab738596c4') in 0.030242 seconds 
+  Import took 0.037750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.840989 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_01.png
+  artifactKey: Guid(000faac42258d2d41be770ceb5c3220e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_01.png using Guid(000faac42258d2d41be770ceb5c3220e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18fa0796de9befb537dda54bad1f1d68') in 0.023328 seconds 
+  Import took 0.029925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_08.png
+  artifactKey: Guid(19d0bb542ed83ec45869b3f9fc8c241e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_08.png using Guid(19d0bb542ed83ec45869b3f9fc8c241e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6899cead3bb5e553d59cbc3b506d14f5') in 0.025325 seconds 
+  Import took 0.031104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_04.png
+  artifactKey: Guid(6c05960bdef4ee04db4b386990fc8cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_04.png using Guid(6c05960bdef4ee04db4b386990fc8cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b779738fc87bd91dd6558423e427fc5') in 0.023879 seconds 
+  Import took 0.032316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_10.png
+  artifactKey: Guid(da83a3be3e5e99b41b25a25d346fce76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_10.png using Guid(da83a3be3e5e99b41b25a25d346fce76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a188133bd388d9941c7f3bdc61d64208') in 0.026610 seconds 
+  Import took 0.033041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_11.png
+  artifactKey: Guid(aabbe574a269292419e22be75f0be442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_11.png using Guid(aabbe574a269292419e22be75f0be442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020392d5ec786c660305f31a394d0f7e') in 0.029295 seconds 
+  Import took 0.034460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_12.png
+  artifactKey: Guid(75ee96578dba3a94ab15e006a4a145b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_12.png using Guid(75ee96578dba3a94ab15e006a4a145b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a2b822e87aa7c5ca5b6add0179dd83a') in 0.031288 seconds 
+  Import took 0.038086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_09.png
+  artifactKey: Guid(41e347dbc2e28ec4889a6ca4bf452d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_09.png using Guid(41e347dbc2e28ec4889a6ca4bf452d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f30d26acabd35ed3cb859e9aa805975') in 0.029662 seconds 
+  Import took 0.036339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_07.png
+  artifactKey: Guid(9f3b82d94947d6f42a73edcec760879c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_07.png using Guid(9f3b82d94947d6f42a73edcec760879c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72ec855c45a12b3a238dc12f6e1ece5') in 0.030140 seconds 
+  Import took 0.036987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_02.png
+  artifactKey: Guid(6299d86ddede90c4695092971963df08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_02.png using Guid(6299d86ddede90c4695092971963df08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3312c1c21da404748f52eae88c9eacc') in 0.026958 seconds 
+  Import took 0.034281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_03.png
+  artifactKey: Guid(3d65fac1ead8d2744b5db96cd9ec2adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_03.png using Guid(3d65fac1ead8d2744b5db96cd9ec2adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc1e772fb33b1473dc33eff9375d4eb0') in 0.032082 seconds 
+  Import took 0.039693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_05.png
+  artifactKey: Guid(1c036ea548e4b264b988c713763e7bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_05.png using Guid(1c036ea548e4b264b988c713763e7bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f485487ba914aa0e6e8f2fa7b8066f') in 0.029693 seconds 
+  Import took 0.037675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_13.png
+  artifactKey: Guid(7cec0f11dd1351a43ba2719c1ba0ca9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_13.png using Guid(7cec0f11dd1351a43ba2719c1ba0ca9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189dd5dcf4693d1e543f24f8bdf70ade') in 0.027675 seconds 
+  Import took 0.034535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_14.png
+  artifactKey: Guid(1990f699b584f754eb5c4c274e489ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_14.png using Guid(1990f699b584f754eb5c4c274e489ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54913e9773592fb6f3d5bd3a1e4b7f0') in 0.030416 seconds 
+  Import took 0.037453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_06.png
+  artifactKey: Guid(502ba63932325004c8ce9be4fbaf44be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with Face/2_Sword/slash/stickman fighter-black-2_Sword-slash_06.png using Guid(502ba63932325004c8ce9be4fbaf44be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4f1c6aac59524459f9fc9028c056dd') in 0.036605 seconds 
+  Import took 0.044797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.999243 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/1_No Weapon/uppercut/stickman fighter-black and white-1_-uppercut_3.png
+  artifactKey: Guid(5cd11a890d16b91488487e833ce5bfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/1_No Weapon/uppercut/stickman fighter-black and white-1_-uppercut_3.png using Guid(5cd11a890d16b91488487e833ce5bfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ccae67d92957a066b4bdf54db655bf5') in 0.026177 seconds 
+  Import took 0.032303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/1_No Weapon/uppercut/stickman fighter-black and white-1_-uppercut_7.png
+  artifactKey: Guid(d4546aadcd24aa04e89103dc87784de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/1_No Weapon/uppercut/stickman fighter-black and white-1_-uppercut_7.png using Guid(d4546aadcd24aa04e89103dc87784de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d1f1f62e3d790167c1cab76334b07e') in 0.022627 seconds 
+  Import took 0.029392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/1_No Weapon/uppercut/stickman fighter-black and white-1_-uppercut_4.png
+  artifactKey: Guid(155f14deb00fc884a988dde95e9de6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/1_No Weapon/uppercut/stickman fighter-black and white-1_-uppercut_4.png using Guid(155f14deb00fc884a988dde95e9de6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a48409beac496e9df083c4147b1dc4') in 0.023279 seconds 
+  Import took 0.030190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/1_No Weapon/uppercut/stickman fighter-black and white-1_-uppercut_6.png
+  artifactKey: Guid(22c52950f5242984e92d802868979d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/1_No Weapon/uppercut/stickman fighter-black and white-1_-uppercut_6.png using Guid(22c52950f5242984e92d802868979d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c283e7207637795b486e15e34b1ad5e') in 0.018937 seconds 
+  Import took 0.025909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/1_No Weapon/uppercut/stickman fighter-black and white-1_-uppercut_4.png
+  artifactKey: Guid(155f14deb00fc884a988dde95e9de6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/1_No Weapon/uppercut/stickman fighter-black and white-1_-uppercut_4.png using Guid(155f14deb00fc884a988dde95e9de6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a48409beac496e9df083c4147b1dc4') in 0.019227 seconds 
+  Import took 0.024512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/1_No Weapon/uppercut/stickman fighter-black and white-1_-uppercut_8.png
+  artifactKey: Guid(e52005e3d70aabc4fad8a9e8217a0e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/1_No Weapon/uppercut/stickman fighter-black and white-1_-uppercut_8.png using Guid(e52005e3d70aabc4fad8a9e8217a0e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '902190922f337c9b8e3ead353f31e009') in 0.024014 seconds 
+  Import took 0.030951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/1_No Weapon/uppercut/stickman fighter-black and white-1_-uppercut_5.png
+  artifactKey: Guid(b00b4a89f92f28646bb7f8065cfed85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/1_No Weapon/uppercut/stickman fighter-black and white-1_-uppercut_5.png using Guid(b00b4a89f92f28646bb7f8065cfed85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6511065535106887c60bff8ddfddd157') in 0.024493 seconds 
+  Import took 0.032172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.245987 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/1_No Weapon/walk fight pose/stickman fighter-black and white-1_-walk fight pose_03.png
+  artifactKey: Guid(02842b9ef24bbd84993e1b56068b6ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/1_No Weapon/walk fight pose/stickman fighter-black and white-1_-walk fight pose_03.png using Guid(02842b9ef24bbd84993e1b56068b6ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692b7ad1123374538fdfded343793cbc') in 0.019804 seconds 
+  Import took 0.026099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/1_No Weapon/walk fight pose/stickman fighter-black and white-1_-walk fight pose_08.png
+  artifactKey: Guid(6a4d315f33911f64c81130b664c70788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/1_No Weapon/walk fight pose/stickman fighter-black and white-1_-walk fight pose_08.png using Guid(6a4d315f33911f64c81130b664c70788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1788834a114b9df97ca4bf02214b7c6') in 0.017982 seconds 
+  Import took 0.023338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/1_No Weapon/walk fight pose/stickman fighter-black and white-1_-walk fight pose_05.png
+  artifactKey: Guid(0cfb8dd24c220704ab36820cb94c033f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/1_No Weapon/walk fight pose/stickman fighter-black and white-1_-walk fight pose_05.png using Guid(0cfb8dd24c220704ab36820cb94c033f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db60d02f101aae330f64fb1a7ddeee8b') in 0.021441 seconds 
+  Import took 0.027831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/1_No Weapon/walk fight pose/stickman fighter-black and white-1_-walk fight pose_07.png
+  artifactKey: Guid(06595d0ee9d0265469f2955ef23d21b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/1_No Weapon/walk fight pose/stickman fighter-black and white-1_-walk fight pose_07.png using Guid(06595d0ee9d0265469f2955ef23d21b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f593aa83d4cf4e0a5e36e5c7a9801cfb') in 0.022590 seconds 
+  Import took 0.029821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/1_No Weapon/walk fight pose/stickman fighter-black and white-1_-walk fight pose_10.png
+  artifactKey: Guid(4f5fb9d1f6487b34493b8d3290653b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/1_No Weapon/walk fight pose/stickman fighter-black and white-1_-walk fight pose_10.png using Guid(4f5fb9d1f6487b34493b8d3290653b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85f5f95c73e9982300e75483ce85509') in 0.024099 seconds 
+  Import took 0.029854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/1_No Weapon/walk fight pose/stickman fighter-black and white-1_-walk fight pose_04.png
+  artifactKey: Guid(987e883a5e91d3e448f11e451aa2b455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/1_No Weapon/walk fight pose/stickman fighter-black and white-1_-walk fight pose_04.png using Guid(987e883a5e91d3e448f11e451aa2b455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0d374c31fab8bdf6b12908f603eb08') in 0.025139 seconds 
+  Import took 0.031862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/1_No Weapon/walk fight pose/stickman fighter-black and white-1_-walk fight pose_09.png
+  artifactKey: Guid(015ac6a55360bdc4a83eca33b3ae0e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/1_No Weapon/walk fight pose/stickman fighter-black and white-1_-walk fight pose_09.png using Guid(015ac6a55360bdc4a83eca33b3ae0e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c487a06ffe87e8897152e3607ea7af0') in 0.025191 seconds 
+  Import took 0.031805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/1_No Weapon/walk fight pose/stickman fighter-black and white-1_-walk fight pose_06.png
+  artifactKey: Guid(c2f0b66a581b97e4f8bb23caf0b18801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/1_No Weapon/walk fight pose/stickman fighter-black and white-1_-walk fight pose_06.png using Guid(c2f0b66a581b97e4f8bb23caf0b18801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e57d3c0aeca27a830867a370c77acfc8') in 0.024757 seconds 
+  Import took 0.031482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.671599 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/5_Rifle/shoot/stickman fighter-black and white-5_Rifle-shoot_0.png
+  artifactKey: Guid(b0ffaf2abc221134ea96608cba38f5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/5_Rifle/shoot/stickman fighter-black and white-5_Rifle-shoot_0.png using Guid(b0ffaf2abc221134ea96608cba38f5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e70da69f2123ebc078754169ca69d0') in 0.019054 seconds 
+  Import took 0.025231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/5_Rifle/shoot/stickman fighter-black and white-5_Rifle-shoot_2.png
+  artifactKey: Guid(87e7d729a446d9e47962275ecbb8b242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/5_Rifle/shoot/stickman fighter-black and white-5_Rifle-shoot_2.png using Guid(87e7d729a446d9e47962275ecbb8b242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bdd3e7611aba7eb8428db8b8e230d71') in 0.046286 seconds 
+  Import took 0.051979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/5_Rifle/shoot/stickman fighter-black and white-5_Rifle-shoot_1.png
+  artifactKey: Guid(a5653feaebc5ad34da9c44b58a9d7b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/5_Rifle/shoot/stickman fighter-black and white-5_Rifle-shoot_1.png using Guid(a5653feaebc5ad34da9c44b58a9d7b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604970002ba32e77aacb8c0be56f0d93') in 0.023085 seconds 
+  Import took 0.029538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010791 seconds.
+  path: Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/5_Rifle/shoot/stickman fighter-black and white-5_Rifle-shoot_1.png
+  artifactKey: Guid(a5653feaebc5ad34da9c44b58a9d7b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/PNG Image Sequence/Stickman Black with White Stroke/5_Rifle/shoot/stickman fighter-black and white-5_Rifle-shoot_1.png using Guid(a5653feaebc5ad34da9c44b58a9d7b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604970002ba32e77aacb8c0be56f0d93') in 0.017181 seconds 
+  Import took 0.023491 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022240 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.200 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2203ms)
+		BeginReloadAssembly (493ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (35ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (223ms)
+		EndReloadAssembly (1585ms)
+			LoadAssemblies (295ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (559ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (549ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (137ms)
+				ProcessInitializeOnLoadAttributes (369ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2526 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.6 MB.
+System memory in use after: 118.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3144.
+Total: 5.207700 ms (FindLiveObjects: 0.514200 ms CreateObjectMapping: 0.199900 ms MarkObjects: 4.418300 ms  DeleteObjects: 0.073000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016444 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 6.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.291 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2291ms)
+		BeginReloadAssembly (234ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (1916ms)
+			LoadAssemblies (194ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (618ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (829ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (7ms)
+				BeforeProcessingInitializeOnLoad (158ms)
+				ProcessInitializeOnLoadAttributes (620ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2526 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.5 MB.
+System memory in use after: 118.7 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3146.
+Total: 5.117200 ms (FindLiveObjects: 0.504800 ms CreateObjectMapping: 0.208900 ms MarkObjects: 4.373700 ms  DeleteObjects: 0.028100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007740 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 4.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.015 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2016ms)
+		BeginReloadAssembly (270ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (1530ms)
+			LoadAssemblies (231ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (552ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (524ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (342ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2526 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.6 MB.
+System memory in use after: 118.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3148.
+Total: 3.589600 ms (FindLiveObjects: 0.321800 ms CreateObjectMapping: 0.163000 ms MarkObjects: 3.075600 ms  DeleteObjects: 0.028000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019941 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 4.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.351 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2370ms)
+		BeginReloadAssembly (610ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (82ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (298ms)
+		EndReloadAssembly (1625ms)
+			LoadAssemblies (189ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (501ms)
+			ReleaseScriptCaches (10ms)
+			RebuildScriptCaches (117ms)
+			SetupLoadedEditorAssemblies (530ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (148ms)
+				ProcessInitializeOnLoadAttributes (341ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2526 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.6 MB.
+System memory in use after: 118.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3150.
+Total: 4.767200 ms (FindLiveObjects: 0.354700 ms CreateObjectMapping: 0.181100 ms MarkObjects: 4.191600 ms  DeleteObjects: 0.038200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019034 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 4.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.888 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1888ms)
+		BeginReloadAssembly (192ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1586ms)
+			LoadAssemblies (166ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (560ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (595ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (153ms)
+				ProcessInitializeOnLoadAttributes (395ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2526 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.6 MB.
+System memory in use after: 118.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3152.
+Total: 9.575100 ms (FindLiveObjects: 0.794800 ms CreateObjectMapping: 0.307600 ms MarkObjects: 8.380600 ms  DeleteObjects: 0.089600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021384 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 5.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.405 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1406ms)
+		BeginReloadAssembly (176ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1138ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (401ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (402ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (264ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2526 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.6 MB.
+System memory in use after: 118.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3154.
+Total: 3.294300 ms (FindLiveObjects: 0.383900 ms CreateObjectMapping: 0.171900 ms MarkObjects: 2.716300 ms  DeleteObjects: 0.020600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011126 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.096 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2097ms)
+		BeginReloadAssembly (270ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1565ms)
+			LoadAssemblies (237ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (541ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (582ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (140ms)
+				ProcessInitializeOnLoadAttributes (391ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2526 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.5 MB.
+System memory in use after: 118.7 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3156.
+Total: 5.742500 ms (FindLiveObjects: 0.543000 ms CreateObjectMapping: 0.282100 ms MarkObjects: 4.877400 ms  DeleteObjects: 0.037700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024536 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 4.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.258 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2259ms)
+		BeginReloadAssembly (256ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (1861ms)
+			LoadAssemblies (256ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (606ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (730ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (180ms)
+				ProcessInitializeOnLoadAttributes (488ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2526 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.6 MB.
+System memory in use after: 118.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3158.
+Total: 7.181600 ms (FindLiveObjects: 0.637500 ms CreateObjectMapping: 0.254300 ms MarkObjects: 6.193600 ms  DeleteObjects: 0.093600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
