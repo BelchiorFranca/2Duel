@@ -229,7 +229,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 325622931}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.12, y: -0.53, z: -0.620066}
+  m_LocalPosition: {x: -0.09, y: -2.68, z: -0.620066}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1886326681}
@@ -259,7 +259,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 455176834}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.05, y: -0.21, z: 0}
+  m_LocalPosition: {x: -0.07, y: -0.96, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1886326681}
@@ -688,9 +688,10 @@ GameObject:
   - component: {fileID: 1886326682}
   - component: {fileID: 1886326683}
   - component: {fileID: 1886326684}
+  - component: {fileID: 1886326685}
   m_Layer: 6
-  m_Name: P1
-  m_TagString: Untagged
+  m_Name: Player1
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -735,7 +736,7 @@ SpriteRenderer:
   m_SortingLayerID: -560900851
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d4a756d537911694e9ab3525fe779b4a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 018ffd9489dfe594c8b83ffcf77a119c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -754,8 +755,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1886326679}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.55, y: -2.27, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -5.72, y: -2.36, z: 0}
+  m_LocalScale: {x: 0.44509226, y: 0.48860905, z: 1}
   m_Children:
   - {fileID: 325622932}
   - {fileID: 455176835}
@@ -796,18 +797,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.07, y: -0.19}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.23, y: 1.06}
+    border: {x: 3.83, y: 1.76, z: 4.2999997, w: 4.06}
+    pivot: {x: 0.365263, y: 0.4635157}
+    oldSize: {x: 12.42, y: 10.87}
     newSize: {x: 1.23, y: 1.06}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.23, y: 1.06}
+  m_Size: {x: 1.76, y: 4.96}
   m_EdgeRadius: 0
 --- !u!114 &1886326684
 MonoBehaviour:
@@ -824,8 +825,11 @@ MonoBehaviour:
   moveSpeed: 10
   runspeed: 0
   jumpForce: 16
+  dashSpeed: 80
+  startDashTimer: 0.15
+  startDashCooldown: 1
   groundCheck: {fileID: 325622932}
-  checkRadius: 0.5
+  checkRadius: 0.4
   whatisGround:
     serializedVersion: 2
     m_Bits: 128
@@ -834,4 +838,39 @@ MonoBehaviour:
   whatisWall:
     serializedVersion: 2
     m_Bits: 8
-  wallCheckDistance: 0.6
+  wallCheckDistance: 0.8
+  animator: {fileID: 1886326685}
+  OnLandEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1886326684}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnLanding
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!95 &1886326685
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886326679}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b4a798ce3d2527c45b77e7803be7355a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
