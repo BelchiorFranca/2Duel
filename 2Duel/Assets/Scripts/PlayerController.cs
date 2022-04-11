@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
 {
 
     private Rigidbody2D myrigidBody; // atribuindo o rigidbody a uma variável
-    private bool isFacingRight = true; //checagem pra ver se o player tá virado pra direita
+    public bool isFacingRight { get; private set; } = true; //checagem pra ver se o player tá virado pra direita
     private float movementInputDirection; // checagem pra ver qual botão ele tá apertando (pra mover)
     public float moveSpeed = 10.0f; //velocidade do movimento
     public float runspeed; // velocidade da corrida 
