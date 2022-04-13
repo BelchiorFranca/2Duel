@@ -39,6 +39,10 @@ public class PlayerController : MonoBehaviour
     public LayerMask whatisWall;
     public float wallCheckDistance;
 
+    private bool hasSword = true;
+    
+
+
     //animator
     public Animator animator;
     [Header("Events")]
@@ -157,4 +161,17 @@ public class PlayerController : MonoBehaviour
     public void OnLanding(){
         animator.SetBool("IsJumping",false);
     }
+/*
+    private void Switch(){
+        if(Input.GetKeyDown(KeyCode.LeftShift) && hasSword){
+
+        }
+        else if(Input.GetKeyDown(KeyCode.LeftShift) && !hasSword){
+
+        }
+    }
+*/
+    
+        
+    
 }
