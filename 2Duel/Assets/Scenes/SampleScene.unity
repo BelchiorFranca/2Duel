@@ -720,6 +720,7 @@ GameObject:
   - component: {fileID: 1886326684}
   - component: {fileID: 1886326685}
   - component: {fileID: 1886326686}
+  - component: {fileID: 1886326687}
   m_Layer: 6
   m_Name: Player1
   m_TagString: Player
@@ -925,6 +926,23 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   attackDmg: 30
+  weaponCategory: 0
+  bullet: {fileID: 0}
+--- !u!114 &1886326687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886326679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aed612c192b7784897d742a6ba37ad9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pistol: {fileID: 3919948928374165721, guid: 84be145ef231d3f4498d2a255e19aa92, type: 3}
+  uzi: {fileID: 3257368365324476515, guid: 9490b18c117be60418b7f86a4dc2f2ac, type: 3}
+  rifle: {fileID: 2509057172302805936, guid: 0b21baaaad26c0c4ea911020cca8524b, type: 3}
 --- !u!1 &1973996750
 GameObject:
   m_ObjectHideFlags: 0
@@ -940,7 +958,7 @@ GameObject:
   - component: {fileID: 1973996755}
   m_Layer: 9
   m_Name: Player2
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
