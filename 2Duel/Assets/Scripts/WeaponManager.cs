@@ -8,6 +8,7 @@ public class WeaponManager : MonoBehaviour
     public GameObject uzi;
     public GameObject rifle;
     private PlayerAttack playerAttack;
+    public Animator animator;
 
     private void Awake()
     {
@@ -25,10 +26,14 @@ public class WeaponManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            SetWeapon(Weapon.Rifle);
+            animator.SetBool("Holding_Sword",true);
+            animator.SetBool("Holding_Uzi",false);
+            SetWeapon(Weapon.Sword);
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2))
         {
+           animator.SetBool("Holding_Uzi",true);
+           animator.SetBool("Holding_Sword",false);
             SetWeapon(Weapon.Uzi);
         }
         else if (Input.GetKeyDown(KeyCode.Alpha3))
@@ -37,7 +42,7 @@ public class WeaponManager : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.Alpha4))
         {
-            SetWeapon(Weapon.Sword);
+            SetWeapon(Weapon.Rifle);
         }
     }
 
