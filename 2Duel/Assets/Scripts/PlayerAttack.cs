@@ -14,6 +14,8 @@ public class PlayerAttack : MonoBehaviour
     public GameObject bullet;
     private PlayerController playerController;
 
+   
+
     private void Awake()
     {
         playerController = GetComponent<PlayerController>();
@@ -22,12 +24,16 @@ public class PlayerAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             Attack();
         }
+
+       
     }
 
+  
     void Attack()
     {
         switch (weaponCategory)
@@ -43,8 +49,8 @@ public class PlayerAttack : MonoBehaviour
                 }
                 break;
             case WeaponCategory.Fire:
-                GameObject bulletWeapon = Instantiate(bullet);
-                bulletWeapon.GetComponent<Bullet>().CreateBullet(playerController.isFacingRight);
+                GameObject bulletWeapon = Instantiate(bullet,attackPoint.position,attackPoint.rotation);
+                bulletWeapon.GetComponent<Rigidbody2D>().AddForce(bulletWeapon.transform.right * 1200);
                 bulletWeapon.transform.position = attackPoint.transform.position;
                 break;
         }

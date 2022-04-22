@@ -26,6 +26,7 @@ public class HealthDmg : MonoBehaviour
 
         if(currentHealth <=0){
             Death();
+            Destroy(gameObject);
         }
     }
 

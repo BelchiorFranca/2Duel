@@ -7,8 +7,12 @@ public class WeaponManager : MonoBehaviour
     public GameObject pistol;
     public GameObject uzi;
     public GameObject rifle;
+    public GameObject blade;
     private PlayerAttack playerAttack;
-    public Animator animator;
+    
+    public Sprite[] spriteArray;
+   // public Animator animator;
+    
 
     private void Awake()
     {
@@ -26,14 +30,11 @@ public class WeaponManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            animator.SetBool("Holding_Sword",true);
-            animator.SetBool("Holding_Uzi",false);
             SetWeapon(Weapon.Sword);
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-           animator.SetBool("Holding_Uzi",true);
-           animator.SetBool("Holding_Sword",false);
+          
             SetWeapon(Weapon.Uzi);
         }
         else if (Input.GetKeyDown(KeyCode.Alpha3))
@@ -45,6 +46,7 @@ public class WeaponManager : MonoBehaviour
             SetWeapon(Weapon.Rifle);
         }
     }
+
 
     public void SetWeapon(Weapon weapon)
     {
