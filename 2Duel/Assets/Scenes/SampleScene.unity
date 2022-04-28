@@ -384,7 +384,7 @@ GameObject:
   - component: {fileID: 431491740}
   - component: {fileID: 431491741}
   m_Layer: 0
-  m_Name: uzi
+  m_Name: Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1376,6 +1376,7 @@ MonoBehaviour:
   attackDmg: 30
   weaponCategory: 0
   bullet: {fileID: 0}
+  hand: {fileID: 431491739}
 --- !u!114 &1886326687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1392,6 +1393,10 @@ MonoBehaviour:
   uzi: {fileID: 3257368365324476515, guid: 9490b18c117be60418b7f86a4dc2f2ac, type: 3}
   rifle: {fileID: 2509057172302805936, guid: 0b21baaaad26c0c4ea911020cca8524b, type: 3}
   blade: {fileID: 0}
+  armPistol: {fileID: 21300000, guid: 89a5664dadd8d014da6d36b571c08f91, type: 3}
+  armUzi: {fileID: 21300000, guid: a8dfe03b8be4a084eaab64874bcf3232, type: 3}
+  armRifle: {fileID: 21300000, guid: a47b89e730ae3424894863e20e65366f, type: 3}
+  armBlade: {fileID: 21300000, guid: 3a571ec019ec46c4298986a0f91d43fb, type: 3}
   spriteArray:
   - {fileID: 21300000, guid: 3a571ec019ec46c4298986a0f91d43fb, type: 3}
   - {fileID: 21300000, guid: a8dfe03b8be4a084eaab64874bcf3232, type: 3}
