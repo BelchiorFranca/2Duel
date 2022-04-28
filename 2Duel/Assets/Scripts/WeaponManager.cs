@@ -9,6 +9,14 @@ public class WeaponManager : MonoBehaviour
     public GameObject rifle;
     public GameObject blade;
     private PlayerAttack playerAttack;
+    [SerializeField]
+    private Sprite armPistol;
+    [SerializeField]
+    private Sprite armUzi;
+    [SerializeField]
+    private Sprite armRifle;
+    [SerializeField]
+    private Sprite armBlade;
     
     public Sprite[] spriteArray;
    // public Animator animator;
@@ -55,18 +63,22 @@ public class WeaponManager : MonoBehaviour
             case Weapon.Sword:
                 playerAttack.SetBulletPrefabs(null);
                 playerAttack.SetWeaponCategory(WeaponCategory.Blade);
+                playerAttack.ChangeSpriteArm(armBlade);
                 break;
             case Weapon.Pistol:
                 playerAttack.SetBulletPrefabs(pistol);
                 playerAttack.SetWeaponCategory(WeaponCategory.Fire);
+                playerAttack.ChangeSpriteArm(armPistol);
                 break;
             case Weapon.Uzi:
                 playerAttack.SetBulletPrefabs(uzi);
                 playerAttack.SetWeaponCategory(WeaponCategory.Fire);
+                playerAttack.ChangeSpriteArm(armUzi);
                 break;
             case Weapon.Rifle:
                 playerAttack.SetBulletPrefabs(rifle);
                 playerAttack.SetWeaponCategory(WeaponCategory.Fire);
+                playerAttack.ChangeSpriteArm(armRifle);
                 break;
         }
     }

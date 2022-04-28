@@ -12,9 +12,9 @@ public class PlayerAttack : MonoBehaviour
 
     public WeaponCategory weaponCategory;
     public GameObject bullet;
+    [SerializeField]
+    private GameObject hand;
     private PlayerController playerController;
-
-   
 
     private void Awake()
     {
@@ -64,5 +64,10 @@ public class PlayerAttack : MonoBehaviour
     public void SetWeaponCategory(WeaponCategory weaponCategory)
     {
         this.weaponCategory = weaponCategory;
+    }
+
+    public void ChangeSpriteArm(Sprite newHoldingWeapon)
+    {
+        hand.GetComponent<SpriteRenderer>().sprite = newHoldingWeapon;
     }
 }
