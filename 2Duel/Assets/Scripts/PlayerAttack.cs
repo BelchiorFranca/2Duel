@@ -9,6 +9,10 @@ public class PlayerAttack : MonoBehaviour
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
     public int attackDmg = 30;
+    public float FireRate;
+    float ReadyForNextShot;
+
+
 
     public WeaponCategory weaponCategory;
     public GameObject bullet;
@@ -25,9 +29,15 @@ public class PlayerAttack : MonoBehaviour
     void Update()
     {
         
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetMouseButtonDown(0))
         {
-            Attack();
+            if(Time.time > ReadyForNextShot){
+                ReadyForNextShot = Time.time +1/FireRate;
+                Attack();
+                
+            }
+            
+            
         }
 
        

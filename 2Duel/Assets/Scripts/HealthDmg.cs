@@ -6,10 +6,12 @@ public class HealthDmg : MonoBehaviour
 {
     public int maxHealth = 100;
     int currentHealth;
+    public HealthBehavior Healthbar;
     // Start is called before the first frame update
     void Start()
     {
         currentHealth = maxHealth;
+        Healthbar.SetHealth(currentHealth,maxHealth);
     }
 
     // Update is called once per frame
@@ -21,6 +23,7 @@ public class HealthDmg : MonoBehaviour
 
     public void takeDamage (int damage){
         currentHealth -= damage;
+        Healthbar.SetHealth(currentHealth,maxHealth);
 
         // animação levando lapada 
 
