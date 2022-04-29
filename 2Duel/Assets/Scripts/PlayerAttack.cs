@@ -12,8 +12,6 @@ public class PlayerAttack : MonoBehaviour
     public float FireRate;
     float ReadyForNextShot;
 
-
-
     public WeaponCategory weaponCategory;
     public GameObject bullet;
     [SerializeField]
@@ -28,22 +26,15 @@ public class PlayerAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
         if (Input.GetMouseButtonDown(0))
         {
             if(Time.time > ReadyForNextShot){
                 ReadyForNextShot = Time.time +1/FireRate;
                 Attack();
-                
             }
-            
-            
         }
-
-       
     }
 
-  
     void Attack()
     {
         switch (weaponCategory)
@@ -60,7 +51,7 @@ public class PlayerAttack : MonoBehaviour
                 break;
             case WeaponCategory.Fire:
                 GameObject bulletWeapon = Instantiate(bullet,attackPoint.position,attackPoint.rotation);
-                bulletWeapon.GetComponent<Rigidbody2D>().AddForce(bulletWeapon.transform.right * 1200);
+                bulletWeapon.GetComponent<Bullet>().CreateBullet();
                 bulletWeapon.transform.position = attackPoint.transform.position;
                 break;
         }

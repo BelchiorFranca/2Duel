@@ -26,6 +26,13 @@ public class Bullet : MonoBehaviour
         Destroy(gameObject, timeHealth);
     }
 
+    public void CreateBullet()
+    {
+        Rigidbody2D rigidbody2d = GetComponent<Rigidbody2D>();
+        rigidbody2d.AddForce(transform.right * speed);
+        Destroy(gameObject, timeHealth);
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Enemy"))
@@ -34,15 +41,15 @@ public class Bullet : MonoBehaviour
             collision.GetComponent<HealthDmg>().takeDamage(damage);
             Destroy(gameObject);
         }
-         if (collision.CompareTag("Ground"))
+        if (collision.CompareTag("Ground"))
         {
-            
+
             Destroy(gameObject);
         }
 
-         if (collision.CompareTag("Wall"))
+        if (collision.CompareTag("Wall"))
         {
-            
+
             Destroy(gameObject);
         }
 
