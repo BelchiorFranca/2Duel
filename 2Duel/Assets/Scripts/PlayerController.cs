@@ -7,11 +7,14 @@ public class PlayerController : MonoBehaviour
 {
 
     private Rigidbody2D myrigidBody; // atribuindo o rigidbody a uma variável
-    public bool isFacingRight { get; private set; } = true; //checagem pra ver se o player tá virado pra direita
+    private bool isFacingRight = true; //checagem pra ver se o player tá virado pra direita
     private float movementInputDirection; // checagem pra ver qual botão ele tá apertando (pra mover)
     public float moveSpeed = 10.0f; //velocidade do movimento
     public float runspeed; // velocidade da corrida 
     public float jumpForce = 16.0f; // força do pulo
+
+    
+    
     
 
     // Dash utilities
@@ -39,7 +42,7 @@ public class PlayerController : MonoBehaviour
     public LayerMask whatisWall;
     public float wallCheckDistance;
 
-    private bool hasSword = true;
+   //private bool hasSword = true;
     
 
 
@@ -171,6 +174,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 */
+
     
         
     
