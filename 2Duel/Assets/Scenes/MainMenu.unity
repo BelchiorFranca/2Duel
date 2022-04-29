@@ -866,10 +866,22 @@ PrefabInstance:
     - target: {fileID: 3209896432524563904, guid: 1f289c6400fc91542a9d3e4407e50f90, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 747029621}
+      objectReference: {fileID: 747029626}
     - target: {fileID: 3209896432524563904, guid: 1f289c6400fc91542a9d3e4407e50f90, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3209896432524563904, guid: 1f289c6400fc91542a9d3e4407e50f90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LocalGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 3209896432524563904, guid: 1f289c6400fc91542a9d3e4407e50f90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MainMenu, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3209896432524563904, guid: 1f289c6400fc91542a9d3e4407e50f90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3380283606515433876, guid: 1f289c6400fc91542a9d3e4407e50f90, type: 3}
       propertyPath: m_Pivot.x
