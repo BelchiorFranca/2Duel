@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class WeaponManager : MonoBehaviour
 {
-    public GameObject pistol;
-    public GameObject uzi;
-    public GameObject rifle;
-    public GameObject blade;
+    [SerializeField]
+    private GameObject pistol;
+    [SerializeField]
+    private GameObject uzi;
+    [SerializeField]
+    private GameObject rifle;
+    [SerializeField]
+    private GameObject blade;
     private PlayerAttack playerAttack;
     [SerializeField]
     private Sprite armPistol;
@@ -17,10 +21,8 @@ public class WeaponManager : MonoBehaviour
     private Sprite armRifle;
     [SerializeField]
     private Sprite armBlade;
-    
+
     public Sprite[] spriteArray;
-   // public Animator animator;
-    
 
     private void Awake()
     {
@@ -42,7 +44,6 @@ public class WeaponManager : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-          
             SetWeapon(Weapon.Uzi);
         }
         else if (Input.GetKeyDown(KeyCode.Alpha3))

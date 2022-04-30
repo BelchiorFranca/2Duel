@@ -12,8 +12,10 @@ public class PlayerAttack : MonoBehaviour
     public float FireRate;
     float ReadyForNextShot;
 
-    public WeaponCategory weaponCategory;
-    public GameObject bullet;
+    [SerializeField]
+    private WeaponCategory weaponCategory;
+    [SerializeField]
+    private GameObject bullet;
     [SerializeField]
     private GameObject hand;
     private PlayerController playerController;
