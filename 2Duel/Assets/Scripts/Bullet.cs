@@ -12,6 +12,7 @@ public class Bullet : MonoBehaviour
     public Transform attackPoint;
     public LayerMask layerEnemy;
 
+    [System.Obsolete("CreateBullet(bool isFacingRight) is deprecated, please use CreateBullet() instead.")]
     public void CreateBullet(bool isFacingRight)
     {
         Rigidbody2D rigidbody2d = GetComponent<Rigidbody2D>();
@@ -29,8 +30,9 @@ public class Bullet : MonoBehaviour
     public void CreateBullet()
     {
         Rigidbody2D rigidbody2d = GetComponent<Rigidbody2D>();
+        gameObject.SetActive(true);
         rigidbody2d.AddForce(transform.right * speed);
-        Destroy(gameObject, timeHealth);
+        Invoke("DisableBullet", timeHealth);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -39,19 +41,21 @@ public class Bullet : MonoBehaviour
         {
             Debug.Log("acertou hit no " + collision.name + " e tirou " + damage + " de dano");
             collision.GetComponent<HealthDmg>().takeDamage(damage);
-            Destroy(gameObject);
+            DisableBullet();
         }
         if (collision.CompareTag("Ground"))
         {
-
-            Destroy(gameObject);
+            DisableBullet();
         }
 
         if (collision.CompareTag("Wall"))
         {
-
-            Destroy(gameObject);
+            DisableBullet();
         }
+    }
 
+    private void DisableBullet()
+    {
+        gameObject.SetActive(false);
     }
 }

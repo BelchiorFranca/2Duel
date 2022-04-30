@@ -82,5 +82,6 @@ public class WeaponManager : MonoBehaviour
                 playerAttack.ChangeSpriteArm(armRifle);
                 break;
         }
+        playerAttack.ChangeWeappon(weapon);
     }
 }

@@ -12,6 +12,7 @@ public class PlayerAttack : MonoBehaviour
     public float FireRate;
     float ReadyForNextShot;
 
+    private Weapon weapon;
     [SerializeField]
     private WeaponCategory weaponCategory;
     [SerializeField]
@@ -52,9 +53,26 @@ public class PlayerAttack : MonoBehaviour
                 }
                 break;
             case WeaponCategory.Fire:
-                GameObject bulletWeapon = Instantiate(bullet,attackPoint.position,attackPoint.rotation);
-                bulletWeapon.GetComponent<Bullet>().CreateBullet();
-                bulletWeapon.transform.position = attackPoint.transform.position;
+                GameObject bulletWeapon = null;
+                switch (weapon)
+                {
+                    case Weapon.Pistol:
+                        bulletWeapon = BulletObjectPool.SharedInstance.GetPistol();
+                        break;
+                    case Weapon.Uzi:
+                        bulletWeapon = BulletObjectPool.SharedInstance.GetUzi();
+                        break;
+                    case Weapon.Rifle:
+                        bulletWeapon = BulletObjectPool.SharedInstance.GetRifle();
+                        break;
+                }
+
+                if (bulletWeapon != null)
+                {
+                    bulletWeapon.transform.position = attackPoint.transform.position;
+                    bulletWeapon.transform.rotation = attackPoint.transform.rotation;
+                    bulletWeapon.GetComponent<Bullet>().CreateBullet();
+                }
                 break;
         }
     }
@@ -72,5 +90,10 @@ public class PlayerAttack : MonoBehaviour
     public void ChangeSpriteArm(Sprite newHoldingWeapon)
     {
         hand.GetComponent<SpriteRenderer>().sprite = newHoldingWeapon;
+    }
+
+    public void ChangeWeappon(Weapon newHoldingWeapon)
+    {
+        weapon = newHoldingWeapon;
     }
 }
