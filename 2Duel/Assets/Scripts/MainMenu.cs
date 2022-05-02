@@ -20,6 +20,8 @@ public class MainMenu : MonoBehaviour
     public void LocalGame()
     {
         SceneManager.LoadScene("SampleScene");  
+        Debug.Log("bora");
+
     }
 
     public void MultiplayerGame()
