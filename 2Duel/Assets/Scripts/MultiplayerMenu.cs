@@ -4,16 +4,19 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using Photon.Pun;
 using UnityEngine.UI;
+using TMPro;
 
 public class MultiplayerMenu : MonoBehaviourPunCallbacks
 {
     // Start is called before the first frame update
-    public InputField createInput;
-    public InputField joinInput;
+    public TMP_InputField createInput;
+    public TMP_InputField joinInput;
 
-    void Start()
+    
+    
+  /*  void Start()
     {
-        PhotonNetwork.ConnectUsingSettings();
+       
     }
 
     // Update is called once per frame
@@ -21,16 +24,13 @@ public class MultiplayerMenu : MonoBehaviourPunCallbacks
     {
         
     }
+    */
 
     public void CreateGameButton()
     {
 
     }
 
-    public override void OnConnectedToMaster() {
-        PhotonNetwork.JoinLobby();
-    }
-    
 
     public void JoinGameButton()
     {
@@ -53,8 +53,10 @@ public class MultiplayerMenu : MonoBehaviourPunCallbacks
 
     }
 
-    public override void OnJoinedRoom()
-    {
-        SceneManager.LoadScene("SampleScene");
+    public override void OnJoinedRoom(){
+        PhotonNetwork.LoadLevel("SampleScene");
     }
+    
+
+   
 }
