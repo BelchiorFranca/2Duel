@@ -1643,30 +1643,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1131125930 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6782221170812117912, guid: 7888b3ae28c34074cae88fbac7380992, type: 3}
-  m_PrefabInstance: {fileID: 6782221172148595727}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1131125931
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1131125930}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fd407d1eb8043244a28cb7937b10b60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amountToPool: 10
-  pooledPistols: []
-  pistolToPool: {fileID: 3919948928374165721, guid: 84be145ef231d3f4498d2a255e19aa92, type: 3}
-  pooledUzis: []
-  uziToPool: {fileID: 3257368365324476515, guid: 9490b18c117be60418b7f86a4dc2f2ac, type: 3}
-  pooledRifles: []
-  rifleToPool: {fileID: 2509057172302805936, guid: 0b21baaaad26c0c4ea911020cca8524b, type: 3}
 --- !u!1001 &1157802593
 PrefabInstance:
   m_ObjectHideFlags: 0
