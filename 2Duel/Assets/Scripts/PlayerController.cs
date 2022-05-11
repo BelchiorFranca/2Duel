@@ -42,6 +42,7 @@ public class PlayerController : MonoBehaviour
     public Transform wallCheck;
     public LayerMask whatisWall;
     public float wallCheckDistance;
+    public HealthBehavior Healthbar;
 
    //private bool hasSword = true;
     

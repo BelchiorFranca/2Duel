@@ -11,10 +11,6 @@ public class HealthBehavior : MonoBehaviour
     public Vector3 Offset;
     
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     public void SetHealth(float health, float maxHealth){

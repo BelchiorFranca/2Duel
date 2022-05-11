@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class HealthDmg : MonoBehaviour
 {
@@ -9,19 +10,25 @@ public class HealthDmg : MonoBehaviour
     public HealthBehavior Healthbar;
     [SerializeField]
     private AudioSource KillSound;
+    public Text healthText;
+    public Image healthBar;
     // Start is called before the first frame update
     void Start()
     {
         currentHealth = maxHealth;
-       // Healthbar.SetHealth(currentHealth,maxHealth);
+        //Healthbar.SetHealth(currentHealth,maxHealth);
     }
 
     // Update is called once per frame
-  /*  void Update()
+    void Update()
     {
+        HealthbarFiller();
         
     }
-    */
+    
+    void HealthbarFiller(){
+        healthBar.fillAmount = currentHealth/maxHealth;
+    }
 
     public void takeDamage (int damage){
         currentHealth -= damage;
@@ -40,4 +47,6 @@ public class HealthDmg : MonoBehaviour
         Debug.Log("Player abatido");
         KillSound.Play();
     }
+
+
 }
