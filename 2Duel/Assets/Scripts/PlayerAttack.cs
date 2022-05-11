@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerAttack : MonoBehaviour
 {
@@ -21,6 +22,12 @@ public class PlayerAttack : MonoBehaviour
     private GameObject hand;
     private PlayerController playerController;
 
+    [SerializeField]
+    private AudioSource shootSound;
+    /*
+    public AudioClip clip;
+    public AudioSource Source;
+*/
     private void Awake()
     {
         playerController = GetComponent<PlayerController>();
@@ -29,11 +36,24 @@ public class PlayerAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+       /* if (Input.GetMouseButtonDown(0))
         {
             if(Time.time > ReadyForNextShot){
                 ReadyForNextShot = Time.time +1/FireRate;
                 Attack();
+            }
+        }
+        */
+        //attackInput();
+    }
+
+    public void attackInput (InputAction.CallbackContext context){
+            if(context.performed ){
+            if(Time.time > ReadyForNextShot){
+                ReadyForNextShot = Time.time +1/FireRate;
+                shootSound.Play();
+                Attack();
+                
             }
         }
     }

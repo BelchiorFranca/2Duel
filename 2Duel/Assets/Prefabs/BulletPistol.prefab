@@ -99,12 +99,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 35
   timeHealth: 2
-  speed: 1000
+  speed: 500
   bullet: {fileID: 3919948928374165721}
   attackPoint: {fileID: 0}
   layerEnemy:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 64
 --- !u!50 &9076559346606810366
 Rigidbody2D:
   serializedVersion: 4

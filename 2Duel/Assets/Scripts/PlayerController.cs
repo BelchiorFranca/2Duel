@@ -2,16 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
 
     private Rigidbody2D myrigidBody; // atribuindo o rigidbody a uma variável
     private bool isFacingRight = true; //checagem pra ver se o player tá virado pra direita
-    private float movementInputDirection; // checagem pra ver qual botão ele tá apertando (pra mover)
     public float moveSpeed = 10.0f; //velocidade do movimento
     public float runspeed; // velocidade da corrida 
     public float jumpForce = 16.0f; // força do pulo
+    private float horizontal;
 
     
     
@@ -62,9 +63,10 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         doubleJumpCheck();
-        CheckInput();
+        //CheckInput();
+        animator.SetFloat("Speed",Mathf.Abs(horizontal));
         CheckMovementDirection();
-        dashCheck();
+        //dashCheck();
     }
 
     private void FixedUpdate() {
@@ -78,7 +80,7 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    private void CheckInput(){
+    /*private void CheckInput(){
 
         movementInputDirection = Input.GetAxisRaw("Horizontal");
         animator.SetFloat("Speed",Mathf.Abs(movementInputDirection));
@@ -88,8 +90,9 @@ public class PlayerController : MonoBehaviour
             extraJumps--;    
         }
     }
+    */
 
-    private void dashCheck(){
+   /* private void dashCheck(){
         movementInputDirection = Input.GetAxisRaw("Horizontal");
 
         if (Input.GetKeyDown(KeyCode.LeftShift) && movementInputDirection != 0.0f && canDash){
@@ -116,28 +119,41 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+    */
 
     private void ApplyMovement(){
-        myrigidBody.velocity = new Vector2(moveSpeed * movementInputDirection,myrigidBody.velocity.y);
+        myrigidBody.velocity = new Vector2(horizontal * moveSpeed,myrigidBody.velocity.y);
         
     }
 
+    public void Move(InputAction.CallbackContext context){
+        horizontal = context.ReadValue<Vector2>().x;
+    }
+
+
     //função que vira o player dependendo do input que ele botar 
     private void CheckMovementDirection(){
-        if(isFacingRight && movementInputDirection < 0){
+        if(isFacingRight && horizontal < 0){
             Flip();
         }
-        else if(!isFacingRight && movementInputDirection > 0){
+        else if(!isFacingRight && horizontal > 0){
             Flip();
         }
     }
     
     //  pulo 
-    private void Jump(){
+   private void Jump(){
         myrigidBody.velocity = new Vector2(myrigidBody.velocity.x, jumpForce);
 
     }
-
+    
+    public void JumpAction(InputAction.CallbackContext context){
+        if(context.performed && extraJumps>0){
+            Jump();
+            extraJumps--;
+        }
+    }
+    
     private void doubleJumpCheck(){
         if(isGrounded || isOnWall){
             extraJumps = 1;
@@ -161,19 +177,7 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    public void OnLanding(){
-        animator.SetBool("IsJumping",false);
-    }
-/*
-    private void Switch(){
-        if(Input.GetKeyDown(KeyCode.LeftShift) && hasSword){
-
-        }
-        else if(Input.GetKeyDown(KeyCode.LeftShift) && !hasSword){
-
-        }
-    }
-*/
+   
 
     
         

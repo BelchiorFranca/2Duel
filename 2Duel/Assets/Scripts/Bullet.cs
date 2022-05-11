@@ -8,12 +8,15 @@ public class Bullet : MonoBehaviour
     public float timeHealth;
     public float speed;
 
+    public AudioClip clip;
+    public AudioSource Source;
+
     public GameObject bullet;
     public Transform attackPoint;
     public LayerMask layerEnemy;
 
     [System.Obsolete("CreateBullet(bool isFacingRight) is deprecated, please use CreateBullet() instead.")]
-    public void CreateBullet(bool isFacingRight)
+   /* public void CreateBullet(bool isFacingRight)
     {
         Rigidbody2D rigidbody2d = GetComponent<Rigidbody2D>();
         if (isFacingRight)
@@ -26,7 +29,7 @@ public class Bullet : MonoBehaviour
         }
         Destroy(gameObject, timeHealth);
     }
-
+*/
     public void CreateBullet()
     {
         Rigidbody2D rigidbody2d = GetComponent<Rigidbody2D>();

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class WeaponManager : MonoBehaviour
 {
@@ -38,7 +39,7 @@ public class WeaponManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        /*if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             SetWeapon(Weapon.Sword);
         }
@@ -54,8 +55,25 @@ public class WeaponManager : MonoBehaviour
         {
             SetWeapon(Weapon.Rifle);
         }
+        */
     }
 
+    public void ChangeSword(InputAction.CallbackContext context){
+        if(context.performed ){
+            SetWeapon(Weapon.Sword);
+        }
+    }
+    public void ChangeUzi(InputAction.CallbackContext context){
+        if(context.performed ){
+            SetWeapon(Weapon.Uzi);
+        }
+    }
+    public void ChangePistol(InputAction.CallbackContext context){
+        if(context.performed ){
+            SetWeapon(Weapon.Pistol);
+        }
+    }
+  
 
     public void SetWeapon(Weapon weapon)
     {
