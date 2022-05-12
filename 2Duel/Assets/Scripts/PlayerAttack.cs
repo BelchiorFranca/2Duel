@@ -47,13 +47,15 @@ public class PlayerAttack : MonoBehaviour
         //attackInput();
     }
 
-    public void attackInput (InputAction.CallbackContext context){
-            if(context.performed ){
-            if(Time.time > ReadyForNextShot){
-                ReadyForNextShot = Time.time +1/FireRate;
+    public void attackInput(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            if (Time.time > ReadyForNextShot)
+            {
+                ReadyForNextShot = Time.time + 1 / FireRate;
                 shootSound.Play();
                 Attack();
-                
             }
         }
     }
@@ -89,8 +91,7 @@ public class PlayerAttack : MonoBehaviour
 
                 if (bulletWeapon != null)
                 {
-                    bulletWeapon.transform.position = attackPoint.transform.position;
-                    bulletWeapon.transform.rotation = attackPoint.transform.rotation;
+                    bulletWeapon.transform.SetPositionAndRotation(attackPoint.transform.position, attackPoint.transform.rotation);
                     bulletWeapon.GetComponent<Bullet>().CreateBullet();
                 }
                 break;
