@@ -5,13 +5,11 @@ using UnityEngine.UI;
 
 public class HealthDmg : MonoBehaviour
 {
-    public int maxHealth;
-    public int currentHealth;
-    public HealthBehavior Healthbar;
+    public float maxHealth;
+    public float currentHealth;
     [SerializeField]
     private AudioSource KillSound;
-    public Text healthText;
-    public Image healthBar;
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -22,13 +20,11 @@ public class HealthDmg : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        HealthbarFiller();
+        
         
     }
     
-    void HealthbarFiller(){
-        healthBar.fillAmount = currentHealth/maxHealth;
-    }
+  
 
     public void takeDamage (int damage){
         currentHealth -= damage;
