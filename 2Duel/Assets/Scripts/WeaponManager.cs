@@ -33,7 +33,7 @@ public class WeaponManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        SetWeapon(Weapon.Sword);
+        SetWeapon(Weapon.Pistol);
     }
 
     // Update is called once per frame
@@ -58,11 +58,12 @@ public class WeaponManager : MonoBehaviour
         */
     }
 
-    public void ChangeSword(InputAction.CallbackContext context){
+  /*  public void ChangeSword(InputAction.CallbackContext context){
         if(context.performed ){
             SetWeapon(Weapon.Sword);
         }
     }
+    */
     public void ChangeUzi(InputAction.CallbackContext context){
         if(context.performed ){
             SetWeapon(Weapon.Uzi);
@@ -79,11 +80,12 @@ public class WeaponManager : MonoBehaviour
     {
         switch (weapon)
         {
-            case Weapon.Sword:
+           /* case Weapon.Sword:
                 playerAttack.SetBulletPrefabs(null);
                 playerAttack.SetWeaponCategory(WeaponCategory.Blade);
                 playerAttack.ChangeSpriteArm(armBlade);
                 break;
+                */
             case Weapon.Pistol:
                 playerAttack.SetBulletPrefabs(pistol);
                 playerAttack.SetWeaponCategory(WeaponCategory.Fire);

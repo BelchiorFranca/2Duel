@@ -4,7 +4,7 @@ using UnityEngine;
 
 public enum Weapon
 {
-    Sword,
+
     Pistol,
     Uzi,
     Rifle,
