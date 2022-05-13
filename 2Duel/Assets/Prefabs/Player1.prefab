@@ -261,6 +261,7 @@ GameObject:
   - component: {fileID: 6177643840018403204}
   - component: {fileID: -716731835690686666}
   - component: {fileID: 1726267153123808187}
+  - component: {fileID: 2976572495907345911}
   m_Layer: 6
   m_Name: Player1
   m_TagString: Enemy
@@ -399,9 +400,6 @@ MonoBehaviour:
   moveSpeed: 10
   runspeed: 0
   jumpForce: 16
-  dashSpeed: 80
-  startDashTimer: 0.15
-  startDashCooldown: 1
   groundCheck: {fileID: 6782221172405989531}
   checkRadius: 0.4
   whatisGround:
@@ -414,6 +412,7 @@ MonoBehaviour:
     m_Bits: 8
   wallCheckDistance: 0.8
   Healthbar: {fileID: 0}
+  tr: {fileID: 2976572495907345911}
   animator: {fileID: 6782221170812117906}
   OnLandEvent:
     m_PersistentCalls:
@@ -692,6 +691,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: e0aa2d24-a9db-4e42-892d-66b056dc0793
     m_ActionName: Player/ChangePistol[/Keyboard/3,/DualShock4GamepadHID/dpad/right,/XInputControllerWindows/dpad/right]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6782221170812117907}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: dashAction
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 279f3b5a-bdf7-45af-b49b-67012b8f0b75
+    m_ActionName: Player/Dash[/DualShock4GamepadHID/leftTrigger,/DualShock4GamepadHID1/leftTrigger,/DualShock4GamepadHID2/leftTrigger,/DualShock4GamepadHID3/leftTrigger,/DualShock4GamepadHID4/leftTrigger,/DualShock4GamepadHID5/leftTrigger,/DualShock4GamepadHID6/leftTrigger,/DualShock4GamepadHID7/leftTrigger,/DualShock4GamepadHID8/leftTrigger,/DualShock4GamepadHID9/leftTrigger,/DualShock4GamepadHID10/leftTrigger]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -811,6 +826,113 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!96 &2976572495907345911
+TrailRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6782221170812117912}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Time: 0.5
+  m_Parameters:
+    serializedVersion: 3
+    widthMultiplier: 1
+    widthCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    colorGradient:
+      serializedVersion: 2
+      key0: {r: 0.13207549, g: 0.120238535, b: 0.120238535, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 37008
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 37394
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    numCornerVertices: 0
+    numCapVertices: 0
+    alignment: 0
+    textureMode: 0
+    shadowBias: 0.5
+    generateLightingData: 0
+  m_MinVertexDistance: 0.1
+  m_Autodestruct: 0
+  m_Emitting: 0
 --- !u!1 &6782221171211008069
 GameObject:
   m_ObjectHideFlags: 0

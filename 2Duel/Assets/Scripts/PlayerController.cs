@@ -19,6 +19,7 @@ public class PlayerController : MonoBehaviour
     
 
     // Dash utilities
+    /*
     public float dashSpeed = 80.0f; // Dash speed/force
     public float startDashTimer = 0.15f; // Amount of time a player can maintain the dash
     public float startDashCooldown = 1.0f; // Amount of time waiting to be able to dash again
@@ -27,6 +28,7 @@ public class PlayerController : MonoBehaviour
     float dashDirection;
     bool canDash = true;
     bool isDashing = false;
+    */
 
     //Double jump e ground check
     private bool isGrounded;
@@ -45,6 +47,13 @@ public class PlayerController : MonoBehaviour
     public HealthBehavior Healthbar;
 
    //private bool hasSword = true;
+   private bool canDash = true;
+   private bool isDashing;
+   private float dashingPower = 24f;
+   private float dashingTime = 0.2f;
+   private float dashingCooldown = 1f; 
+
+   [SerializeField] private TrailRenderer tr;
     
 
 
@@ -63,6 +72,9 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+         if(isDashing){
+            return;
+        }
         doubleJumpCheck();
         //CheckInput();
         animator.SetFloat("Speed",Mathf.Abs(horizontal));
@@ -71,6 +83,9 @@ public class PlayerController : MonoBehaviour
     }
 
     private void FixedUpdate() {
+        if(isDashing){
+            return;
+        }
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position,checkRadius,whatisGround);
         if(isGrounded){
@@ -171,6 +186,26 @@ public class PlayerController : MonoBehaviour
         transform.Rotate(0.0f, 180.0f , 0.0f);
     }
 
+    private IEnumerator Dash(){
+        canDash =false;
+        isDashing = true;
+        float originalGravity = myrigidBody.gravityScale;
+        myrigidBody.gravityScale = 0f;
+        myrigidBody.velocity = new Vector2(horizontal * dashingPower,0f);
+        tr.emitting = true;
+        yield return new WaitForSeconds(dashingTime);
+        tr.emitting = false;
+        myrigidBody.gravityScale = originalGravity;
+        isDashing = false;
+        yield return new WaitForSeconds(dashingCooldown);
+        canDash = true;
+    }
+
+    public void dashAction(InputAction.CallbackContext context){
+        if(context.performed){
+            StartCoroutine(Dash());
+        }
+    }
     [System.Serializable]
     public class BoolEvent : UnityEvent<bool> { 
 

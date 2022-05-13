@@ -9,7 +9,7 @@ public class ConnectToServer : MonoBehaviourPunCallbacks
 {
     // Start is called before the first frame update
     
-    void Start()
+    /*void Start()
     {
         PhotonNetwork.ConnectUsingSettings();
     }
@@ -24,4 +24,5 @@ public class ConnectToServer : MonoBehaviourPunCallbacks
         Debug.Log("joined");
         SceneManager.LoadScene("MultiplayerMenu");
     }
+    */
 }

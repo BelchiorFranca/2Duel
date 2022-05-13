@@ -23,11 +23,12 @@ public class MainMenu : MonoBehaviour
         Debug.Log("bora");
 
     }
-
+/*
     public void MultiplayerGame()
     {
         SceneManager.LoadScene("MultiplayerMenu");
     }
+    */
 
     public void QuitGame()
     {

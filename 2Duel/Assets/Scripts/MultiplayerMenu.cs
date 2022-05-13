@@ -41,7 +41,7 @@ public class MultiplayerMenu : MonoBehaviourPunCallbacks
     {
         SceneManager.LoadScene("MainMenu");
     }
-
+/*
     public void CreateRoom()
     {
         PhotonNetwork.CreateRoom(createInput.text);
@@ -56,6 +56,7 @@ public class MultiplayerMenu : MonoBehaviourPunCallbacks
     public override void OnJoinedRoom(){
         PhotonNetwork.LoadLevel("SampleScene");
     }
+    */
     
 
    
