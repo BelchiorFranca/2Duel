@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 1e72dfa7463e866408e28538a4100ad1, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9339623, g: 0.101326115, b: 0.101326115, a: 1}
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
@@ -146,5 +146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
-  Healthbar: {fileID: 0}
   KillSound: {fileID: 0}
+  Kill: {fileID: 0}
+  bodyHit: {fileID: 0}
+  AudioPos: {x: 0, y: 0, z: 0}
