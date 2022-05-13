@@ -9,11 +9,16 @@ public class HealthDmg : MonoBehaviour
     public float currentHealth;
     [SerializeField]
     private AudioSource KillSound;
+    public AudioClip  Kill;
+    public AudioClip bodyHit;
+    public Vector3 AudioPos;
    
     // Start is called before the first frame update
     void Start()
     {
         currentHealth = maxHealth;
+        KillSound = GetComponent<AudioSource>();
+        AudioPos = new Vector3(0,0,0);
         //Healthbar.SetHealth(currentHealth,maxHealth);
     }
 
@@ -29,19 +34,22 @@ public class HealthDmg : MonoBehaviour
     public void takeDamage (int damage){
         currentHealth -= damage;
         //Healthbar.SetHealth(currentHealth,maxHealth);
-
+        KillSound.PlayOneShot(bodyHit);
         // animação levando lapada 
 
         if(currentHealth <=0){
+           AudioSource.PlayClipAtPoint(Kill,AudioPos);
             Death();
-            Destroy(gameObject);
+            
+            
         }
     }
 
     void Death(){
-        gameObject.SetActive(false);
+        
+        Destroy(gameObject);
         Debug.Log("Player abatido");
-        KillSound.Play();
+       
     }
 
 

@@ -8,7 +8,7 @@ public class Bullet : MonoBehaviour
     public float timeHealth;
     public float speed;
 
-    public AudioClip clip;
+    public AudioClip smg;
     public AudioSource Source;
 
     public GameObject bullet;

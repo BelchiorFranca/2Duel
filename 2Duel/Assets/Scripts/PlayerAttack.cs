@@ -22,8 +22,9 @@ public class PlayerAttack : MonoBehaviour
     private GameObject hand;
     private PlayerController playerController;
 
-    [SerializeField]
+    
     private AudioSource shootSound;
+    public AudioClip smg;
     /*
     public AudioClip clip;
     public AudioSource Source;
@@ -31,6 +32,7 @@ public class PlayerAttack : MonoBehaviour
     private void Awake()
     {
         playerController = GetComponent<PlayerController>();
+        shootSound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -54,7 +56,7 @@ public class PlayerAttack : MonoBehaviour
             if (Time.time > ReadyForNextShot)
             {
                 ReadyForNextShot = Time.time + 1 / FireRate;
-                shootSound.Play();
+                shootSound.PlayOneShot(smg,0.7f);
                 Attack();
             }
         }
